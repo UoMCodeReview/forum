@@ -15,9 +15,7 @@ If you have no idea what to look for, here is a list of the major points to chec
 
 ## What to look for as a reviewer
 
-*Under construction*
-
-The following points are common guidelines, not rules. Cases may arise where it is best not to follow them.
+The following points are common guidelines, not rules and are provided as examples of things you might look for. Cases may arise where it is best not to follow these guidelines.
 
 1. [Naming](#naming)
 1. [Duplicated code](#duplicated)
@@ -28,7 +26,7 @@ The following points are common guidelines, not rules. Cases may arise where it 
 1. [Comments](#comments)
 1. [Performance low hanging fruits](#performance)
 1. [Potential use of built-in functions](#builtin)
-1. [Potential use of third-party libraries](#third-party)
+
 
 ### Code style
 
@@ -42,8 +40,6 @@ Whatever the programming language, there is usually a style guide, or set of bes
 | JavaScript | JavaScript Standard style                | JavaScript Standard style |
 | Fortran    | Fortran Best Practices                   | gfortran                  |
 | Ruby       | Ruby Style Guide                         | RuboCop                   |
-| Go         | Effective Go                             | gofmt                     |
-| Julia      | The Julia Style Guide                    | ??                        |
 
 Following a style guide makes sure that your code is written in a way that is consistent with code written
 by other programmers (assuming they also follow the same style guide).
@@ -172,10 +168,8 @@ See also [Writing simpler and more maintainable Python by Anthony Shaw (video)](
 
 ### Long functions/methods
 
-- Functions should be as short as possible.
-  Readability an modularity.
-- Functions should do one thing.
-  Facilitates testing.
+- Functions should be as short as possible, this improves readability and modularity.
+- Functions should do one thing - this facilitates testing.
 
 <a id="obscure"></a>
 
@@ -336,6 +330,3 @@ from itertools import accumulate
 accumulate([1,2,3,4,5], initial=100) --> 100 101 103 106 110 115
 ```
 
-<a id="third-party"></a>
-
-### Potential use of third party libraries
