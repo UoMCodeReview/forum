@@ -17,7 +17,7 @@ If you don't feel confident in your ability to review code, you might be surpris
 
 This group is an initiative from the Open Science Working Group at the Univeristy of Manchester. It is inspired by the group set up at The University of Oxford: https://github.com/OxfordCodeReviewNet/forum. Everyone is welcome to contribute to this repository, see [the contributing guidelines](CONTRIBUTING.md).
 
-The Univeristy of Manchester Open Science Working Group meets regularly to discuss issues surrounding open science and is open to all researchers at the Univeristy of Manchester. We currently coordinate via a mailing list `open_research@listserv.manchester.ac.uk`. You can click [here]((https://listserv.manchester.ac.uk/cgi-bin/wa?SUBED1=open_research&A=1)) to subscribe.
+The Univeristy of Manchester Open Science Working Group meets regularly to discuss issues surrounding open science and is open to all researchers at the Univeristy of Manchester. We currently coordinate via a mailing list `open_research@listserv.manchester.ac.uk`. You can click [here](https://listserv.manchester.ac.uk/cgi-bin/wa?SUBED1=open_research&A=1) to subscribe.
 
 ## <a name="guidelines"></a> Code review guidelines
 
